@@ -1,0 +1,41 @@
+{
+  "name": "pull-fmap",
+  "description": "fmap function for pull stream",
+  "version": "0.0.1",
+  "homepage": "https://github.com/amsross/pull-fmap",
+  "author": "Matt Ross (https://github.com/amsross)",
+  "repository": "amsross/pull-fmap",
+  "bugs": {
+    "url": "https://github.com/amsross/pull-fmap/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "npm run test:lint && npm run test:tape",
+    "test:tape": "./node_modules/.bin/tape test/index.js | ./node_modules/.bin/tap-spec",
+    "test:lint": "eslint index.js test/index.js"
+  },
+  "keywords": [
+    "pull-stream",
+    "fmap",
+    "functor"
+  ],
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-standard": "^2.0.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "pull-stream": "^3.5.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "standard",
+  "rules": {
+    "comma-dangle": "error",
+    "prefer-const": "error",
+    "semi": ["error", "always"],
+    "sort-keys": "error",
+    "sort-vars": "error"
+  }
+}
