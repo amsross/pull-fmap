@@ -3,7 +3,7 @@
 function id (e) { return e; };
 const prop = require('pull-stream/util/prop');
 
-module.exports = function map (mapper) {
+module.exports = function fmap (mapper) {
   if (!mapper) return id;
   mapper = prop(mapper);
   return function (read) {

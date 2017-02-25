@@ -1,7 +1,7 @@
 {
   "name": "pull-fmap",
   "description": "fmap function for pull stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/amsross/pull-fmap",
   "author": "Matt Ross (https://github.com/amsross)",
   "repository": "amsross/pull-fmap",
