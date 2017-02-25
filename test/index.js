@@ -1,3 +1,5 @@
+'use strict';
+
 const test = require('tape');
 const pull = require('pull-stream');
 const fmap = require('../');
