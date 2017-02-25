@@ -6,7 +6,7 @@ This is a blatant rip of code from [pull-stream/pull-stream](https://github.com/
 
 ```js
 pull(
-  pull.values([ Just('Hello'), Juts('World'), Nothing ])
+  pull.values([ Just('Hello'), Just('World'), Nothing ])
   fmap(x => x.toUpperCase()),
   pull.log()
 )
