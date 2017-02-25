@@ -2,8 +2,6 @@
 
 > fmap function for mapping over functors in a pull stream
 
-This is a blatant rip of code from [pull-stream/pull-stream](https://github.com/pull-stream/pull-stream/blob/b97db9e7ed0815998c76014c59a9bfb764eae06d/throughs/map.js).
-
 ```js
 pull(
   pull.values([ Just('Hello'), Just('World'), Nothing ])
@@ -43,7 +41,8 @@ $ npm install pull-fmap
 
 ## See Also
 
-- [`fantasyland/fantasy-land`](https://github.com/fantasyland/fantasy-land#functor)
+- [`fantasyland/fantasy-land#functor`](https://github.com/fantasyland/fantasy-land#functor)
+- [`pull-stream/pull-stream`](https://github.com/pull-stream/pull-stream)
 
 ## License
 
