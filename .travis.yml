@@ -1,7 +1,14 @@
 sudo: false
 language: node_js
 node_js:
-  - 'node'
-  - '6'
-  - '5'
-  - '4'
+- node
+- '6'
+- '5'
+- '4'
+deploy:
+  provider: npm
+  email: amsross@gmail.com
+  api_key: "${NPM_API_KEY}"
+env:
+  matrix:
+    secure: HPnwrY1ADu/3pghk/oYk06gc/TpiPgHZKPmdiajcDGrDobXTzUuGnd6yZIUdmv9ctAtOwrMoFusOJ27G40HofnTLmNg/JLckWlV9A6N2rFVCtDSZ7NqOPIaMzUlPYPA5CQq8IEy7gkGz/Ijo7RdpiAfeLCacZmzaXa3MNY54DqP3ZGgM5TXCc2UslSKvfBCgYbbsV0PnNXkSQlXEVX6HVqCNh7AG8xJ9q2fDK8Qk0Ac9n7lzggHWitOlGcuw4cWMc+SQWFAnWa4vowkfs+9ioyJQTb7RhBExVUZu7rRh8ll2yGFvI6BtjeBxCuYvBPV1dw8F1UamT9RpaGIEik3dxHJjkHDG+AEMl27+klMuztXtjFTxkODbzTOGGyka8zlH5fbS4Mp7884cW/Jl2I5ekn+fzSv+yzjndycfCtcP+JjG3/6MDdR+ijPBEydhMwjPHDeTqjWth0gk5oFGBQypHwKm6ZvJLr4Xktypc5uFHshjnnN3j7PW/AvX11zDSBsLnj3LdB+PakJdMFS3O1nLNTWMa3wVMmDTPEtGdsytTs3AvZ4Y0/6836FHQ/zjDUIigPW5Y9GhkGDmI1nJ1VK/c1hYMXEZtREE8E04HPz+kvZkPFcy/3p3nT9D5q9npUNJrFb+Q2T/9WJK0sIlEJkaT6NWUguz2BxN7G96yeIoMUs=
